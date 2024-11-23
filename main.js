@@ -2,6 +2,7 @@ var rickroll = document.getElementById("rickroll");
 var meme = document.getElementById("meme");
 var ip = document.getElementById("ip");
 var discord = document.getElementById("discord");
+var cloud = document.getElementById("cloud");
 var cname;
 var iplocation;
 
@@ -27,6 +28,7 @@ rickroll.addEventListener("click", fx1);
 meme.addEventListener("click", fx2);
 ip.addEventListener("click", fx3);
 discord.addEventListener("click", fx4);
+cloud.addEventListener("click", fx5);
 
 
 function fx1() {
@@ -47,5 +49,8 @@ function fx3() {
 }
 function fx4() {
     window.location = "https://discord.gg/bJVmQFDjWx"
+}
+function fx5() {
+    window.location = "https://bit.ly/notanaxolotl"
 }
 setCookie(cname, 720)
