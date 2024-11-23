@@ -1,15 +1,15 @@
 *{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI';
 }
-
-#title {
-    font-weight: 900;
+body {
+    border: 10px solid white;
 }
-#chaomung {
-    font-size: larger;
-    text-align: center;
+footer {
+    font-size: small;
+    text-align: right;
+    font-weight: 750;
 }
-.chutichdang {
+#chutichdang {
     font-size: larger;
     font-weight: bold;
     color: black;
@@ -40,10 +40,9 @@ footer {
     display:block;
 }
 .btn {
-    width:19.5%;
+    width:15%;
     height:100px;
     font-weight:bolder;
-    padding:20px;
 }
 .cot1 {
     width:2%;
