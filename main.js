@@ -1,8 +1,6 @@
 var rickroll = document.getElementById("rickroll");
 var meme = document.getElementById("meme");
 var ip = document.getElementById("ip");
-var discord = document.getElementById("discord");
-var cloud = document.getElementById("cloud");
 var cname;
 var iplocation;
 
@@ -27,17 +25,15 @@ function setCookie(cname, exdays) {
 rickroll.addEventListener("click", fx1);
 meme.addEventListener("click", fx2);
 ip.addEventListener("click", fx3);
-discord.addEventListener("click", fx4);
-cloud.addEventListener("click", fx5);
 
 
 function fx1() {
     if (confirm("Bạn có chắc chắn?") == true) {
-        window.location = "./media/meme/not-a-rickroll.mp4"
+        window.location = "./media/meme/rickrolled.html"
     }
     else {
         alert("Đã quá muộn :)");
-        window.location = "./media/meme/not-a-rickroll.mp4";
+        window.location = "./media/meme/rickrolled.html";
     }
 };
 
@@ -46,11 +42,5 @@ function fx2() {
 };
 function fx3() {
     alert("IP: " + cname + " Tọa độ: " + iplocation)
-}
-function fx4() {
-    window.location = "https://discord.gg/bJVmQFDjWx"
-}
-function fx5() {
-    window.location = "https://bit.ly/notanaxolotl"
-}
+};
 setCookie(cname, 720)
