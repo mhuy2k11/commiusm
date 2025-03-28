@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loomian Effective Damage Check</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+    <script>
+        async function loadEffectiveness() {
+            try {
+                const response = await fetch('effectiveness.json');
+                const data = await response.json();
+                return data;
+            } catch (error) {
+                console.error("Error loading effectiveness data:", error);
+                return null;
+            }
+        }
+
+        async function loadLoomians() {
+            try {
+                const response = await fetch('loomians.json');
+                const data = await response.json();
+
+                const loomianList = document.getElementById("loomianList");
+
+                // Sort Loomians by name (A to Z)
+                const sortedLoomians = data.loomians.sort((a, b) => a.name.localeCompare(b.name));
+
+                // Populate the first dropdown with sorted Loomians
+                sortedLoomians.forEach(loomian => {
+                    const option = document.createElement("option");
+                    option.value = loomian.types.join(","); // Store types as a comma-separated string
+                    option.textContent = loomian.name;
+                    loomianList.appendChild(option);
+                });
+
+                // Initialize Select2 for both dropdowns
+                $('#loomianList').select2({
+                    placeholder: "Search for a Loomian",
+                    allowClear: true
+                });
+
+                $('#typeList').select2({
+                    placeholder: "Choose attacking type",
+                    allowClear: true
+                });
+            } catch (error) {
+                console.error("Error loading Loomians:", error);
+            }
+        }
+
+        async function calculateEffectiveness() {
+            const loomianList = document.getElementById("loomianList");
+            const typeList = document.getElementById("typeList");
+            const output = document.getElementById("output");
+
+            const selectedLoomianTypes = loomianList.value.split(","); // Get defending Loomian's types
+            const selectedType = typeList.value; // Get attacking type
+
+            if (!selectedLoomianTypes || !selectedType) {
+                output.textContent = "Please select both a Loomian and an attacking type.";
+                return;
+            }
+
+            const effectivenessData = await loadEffectiveness();
+            if (!effectivenessData) {
+                output.textContent = "Error loading effectiveness data.";
+                return;
+            }
+
+            // Calculate the total effectiveness multiplier
+            let totalMultiplier = 1;
+            selectedLoomianTypes.forEach(defendingType => {
+                const multiplier = effectivenessData[selectedType]?.[defendingType] || 1;
+                totalMultiplier *= multiplier; // Multiply the effectiveness of each type
+            });
+
+            // Display the result
+            output.textContent = `Sát thương của ${selectedType} lên ${loomianList.options[loomianList.selectedIndex].textContent} là ${totalMultiplier}x.`;
+        }
+        // Ensure DOM is fully loaded before adding event listeners
+        document.addEventListener("DOMContentLoaded", () => {
+            document.getElementById("getOptionsButton").addEventListener("click", calculateEffectiveness);
+            loadLoomians();
+        });
+    </script>
+</head>
+
+<body>
+    <h1>Loomian Effective Damage Check</h1>
+    <div class="box">
+        <label for="loomianList">Chọn Loomian:</label>
+        <select id="loomianList" style="width: 30%;">
+            <!-- Options will be dynamically loaded here -->
+        </select>
+        <br>
+        <label for="type">Chọn hệ tấn công:</label>
+        <select id="typeList" style="width: 30%;">
+            <option value="Fire">Fire</option>
+            <option value="Metal">Metal</option>
+            <option value="Water">Water</option>
+            <option value="Light">Light</option>
+            <option value="Plant">Plant</option>
+            <option value="Brawler">Brawler</option>
+            <option value="Dark">Dark</option>
+            <option value="Spirit">Spirit</option>
+            <option value="Ice">Ice</option>
+            <option value="Earth">Earth</option>
+            <option value="Electric">Electric</option>
+            <option value="Ancient">Ancient</option>
+            <option value="Simple">Simple</option>
+            <option value="Bug">Bug</option>
+            <option value="Air">Air</option>
+            <option value="Toxic">Toxic</option>
+            <option value="Mind">Mind</option>
+        </select>
+        <br><br>
+        <button id="getOptionsButton">Kiểm tra</button>
+        <p id="output"></p>
+    </div>
+</body>
+
+</html>

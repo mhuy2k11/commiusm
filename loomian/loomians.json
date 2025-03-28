@@ -1,0 +1,2227 @@
+{
+    "loomians": [
+        {
+            "value": "001",
+            "name": "Embit",
+            "types": [
+                "Fire"
+            ]
+        },
+        {
+            "value": "002",
+            "name": "Rabburn",
+            "types": [
+                "Fire"
+            ]
+        },
+        {
+            "value": "003",
+            "name": "Searknight",
+            "types": [
+                "Fire",
+                "Metal"
+            ]
+        },
+        {
+            "value": "004",
+            "name": "Dripple",
+            "types": [
+                "Water"
+            ]
+        },
+        {
+            "value": "005",
+            "name": "Reptide",
+            "types": [
+                "Water"
+            ]
+        },
+        {
+            "value": "006",
+            "name": "Luminami",
+            "types": [
+                "Water",
+                "Light"
+            ]
+        },
+        {
+            "value": "007",
+            "name": "Fevine",
+            "types": [
+                "Plant"
+            ]
+        },
+        {
+            "value": "008",
+            "name": "Felver",
+            "types": [
+                "Plant"
+            ]
+        },
+        {
+            "value": "009",
+            "name": "Tahtab",
+            "types": [
+                "Plant",
+                "Brawler"
+            ]
+        },
+        {
+            "value": "010",
+            "name": "Eaglit",
+            "types": [
+                "Light"
+            ]
+        },
+        {
+            "value": "011",
+            "name": "Torprey",
+            "types": [
+                "Light"
+            ]
+        },
+        {
+            "value": "012",
+            "name": "Falkyrie",
+            "types": [
+                "Light",
+                "Metal"
+            ]
+        },
+        {
+            "value": "013",
+            "name": "Vambat",
+            "types": [
+                "Dark"
+            ]
+        },
+        {
+            "value": "014",
+            "name": "Dimpire",
+            "types": [
+                "Dark"
+            ]
+        },
+        {
+            "value": "015",
+            "name": "Vesperatu",
+            "types": [
+                "Dark",
+                "Spirit"
+            ]
+        },
+        {
+            "value": "016",
+            "name": "Snocub",
+            "types": [
+                "Ice"
+            ]
+        },
+        {
+            "value": "017",
+            "name": "Snowki",
+            "types": [
+                "Ice"
+            ]
+        },
+        {
+            "value": "018",
+            "name": "Himbrr",
+            "types": [
+                "Ice",
+                "Earth"
+            ]
+        },
+        {
+            "value": "019",
+            "name": "Weevolt",
+            "types": [
+                "Electric"
+            ]
+        },
+        {
+            "value": "020",
+            "name": "Stozap",
+            "types": [
+                "Electric"
+            ]
+        },
+        {
+            "value": "021",
+            "name": "Zuelong",
+            "types": [
+                "Electric",
+                "Ancient"
+            ]
+        },
+        {
+            "value": "022",
+            "name": "Twilat",
+            "types": [
+                "Simple"
+            ]
+        },
+        {
+            "value": "023",
+            "name": "Umbrat",
+            "types": [
+                "Dark"
+            ]
+        },
+        {
+            "value": "024",
+            "name": "Luxoar",
+            "types": [
+                "Light"
+            ]
+        },
+        {
+            "value": "025",
+            "name": "Tiklipse",
+            "types": [
+                "Light",
+                "Dark"
+            ]
+        },
+        {
+            "value": "026",
+            "name": "Cathorn",
+            "types": [
+                "Bug"
+            ]
+        },
+        {
+            "value": "027",
+            "name": "Propae",
+            "types": [
+                "Bug"
+            ]
+        },
+        {
+            "value": "028",
+            "name": "Cynamoth",
+            "types": [
+                "Bug",
+                "Air"
+            ]
+        },
+        {
+            "value": "029",
+            "name": "Sumobito",
+            "types": [
+                "Bug",
+                "Brawler"
+            ]
+        },
+        {
+            "value": "030",
+            "name": "Twittle",
+            "types": [
+                "Air"
+            ]
+        },
+        {
+            "value": "031",
+            "name": "Paratweet",
+            "types": [
+                "Air"
+            ]
+        },
+        {
+            "value": "032",
+            "name": "Avitross",
+            "types": [
+                "Air"
+            ]
+        },
+        {
+            "value": "033",
+            "name": "Pyder",
+            "types": [
+                "Bug",
+                "Toxic"
+            ]
+        },
+        {
+            "value": "034",
+            "name": "Swolder",
+            "types": [
+                "Bug",
+                "Toxic"
+            ]
+        },
+        {
+            "value": "035",
+            "name": "Antsee",
+            "types": [
+                "Plant",
+                "Bug"
+            ]
+        },
+        {
+            "value": "036",
+            "name": "Florant",
+            "types": [
+                "Plant",
+                "Bug"
+            ]
+        },
+        {
+            "value": "037",
+            "name": "Grubby",
+            "types": [
+                "Bug"
+            ]
+        },
+        {
+            "value": "038",
+            "name": "Coonucopia",
+            "types": [
+                "Bug"
+            ]
+        },
+        {
+            "value": "039",
+            "name": "Terrafly",
+            "types": [
+                "Bug",
+                "Toxic"
+            ]
+        },
+        {
+            "value": "040",
+            "name": "Terraclaw",
+            "types": [
+                "Bug"
+            ]
+        },
+        {
+            "value": "041",
+            "name": "Kleptyke",
+            "types": [
+                "Dark"
+            ]
+        },
+        {
+            "value": "042",
+            "name": "Ragoon",
+            "types": [
+                "Dark"
+            ]
+        },
+        {
+            "value": "043",
+            "name": "Babore",
+            "types": [
+                "Earth"
+            ]
+        },
+        {
+            "value": "044",
+            "name": "Boarrok",
+            "types": [
+                "Earth"
+            ]
+        },
+        {
+            "value": "045",
+            "name": "Geklow",
+            "types": [
+                "Electric",
+                "Light"
+            ]
+        },
+        {
+            "value": "046",
+            "name": "Eleguana",
+            "types": [
+                "Electric",
+                "Light"
+            ]
+        },
+        {
+            "value": "047",
+            "name": "Slugling",
+            "types": [
+                "Plant"
+            ]
+        },
+        {
+            "value": "048",
+            "name": "Escargrow",
+            "types": [
+                "Plant"
+            ]
+        },
+        {
+            "value": "049",
+            "name": "Gastroak",
+            "types": [
+                "Plant"
+            ]
+        },
+        {
+            "value": "050",
+            "name": "Kabunga",
+            "types": [
+                "Plant"
+            ]
+        },
+        {
+            "value": "051",
+            "name": "Wiki-Wiki",
+            "types": [
+                "Plant"
+            ]
+        },
+        {
+            "value": "052",
+            "name": "Chartiki",
+            "types": [
+                "Plant",
+                "Fire"
+            ]
+        },
+        {
+            "value": "053",
+            "name": "Waka-Laka",
+            "types": [
+                "Plant",
+                "Mind"
+            ]
+        },
+        {
+            "value": "054",
+            "name": "Shawchi",
+            "types": [
+                "Mind"
+            ]
+        },
+        {
+            "value": "055",
+            "name": "Rakrawla",
+            "types": [
+                "Earth"
+            ]
+        },
+        {
+            "value": "056",
+            "name": "Sedimars",
+            "types": [
+                "Earth"
+            ]
+        },
+        {
+            "value": "057",
+            "name": "Gumpod",
+            "types": [
+                "Water"
+            ]
+        },
+        {
+            "value": "058",
+            "name": "Ventacean",
+            "types": [
+                "Water"
+            ]
+        },
+        {
+            "value": "059",
+            "name": "Phancub",
+            "types": [
+                "Spirit",
+                "Brawler"
+            ]
+        },
+        {
+            "value": "060",
+            "name": "Ursoul",
+            "types": [
+                "Spirit",
+                "Brawler"
+            ]
+        },
+        {
+            "value": "061",
+            "name": "Ursnac",
+            "types": [
+                "Spirit",
+                "Brawler"
+            ]
+        },
+        {
+            "value": "062",
+            "name": "Whispup",
+            "types": [
+                "Spirit",
+                "Fire"
+            ]
+        },
+        {
+            "value": "063",
+            "name": "Revenine",
+            "types": [
+                "Spirit",
+                "Fire"
+            ]
+        },
+        {
+            "value": "064",
+            "name": "Skilava",
+            "types": [
+                "Fire"
+            ]
+        },
+        {
+            "value": "065",
+            "name": "Geksplode",
+            "types": [
+                "Fire"
+            ]
+        },
+        {
+            "value": "066",
+            "name": "Eruptidon",
+            "types": [
+                "Fire"
+            ]
+        },
+        {
+            "value": "067",
+            "name": "Craytal",
+            "types": [
+                "Fire"
+            ]
+        },
+        {
+            "value": "068",
+            "name": "Krakaloa",
+            "types": [
+                "Fire"
+            ]
+        },
+        {
+            "value": "069",
+            "name": "Volkaloa",
+            "types": [
+                "Fire",
+                "Ancient"
+            ]
+        },
+        {
+            "value": "070",
+            "name": "Festifir",
+            "types": [
+                "Ice",
+                "Plant"
+            ]
+        },
+        {
+            "value": "071",
+            "name": "Igneol",
+            "types": [
+                "Ancient"
+            ]
+        },
+        {
+            "value": "072",
+            "name": "Chrysite",
+            "types": [
+                "Ancient"
+            ]
+        },
+        {
+            "value": "073",
+            "name": "Obsidrugon",
+            "types": [
+                "Ancient"
+            ]
+        },
+        {
+            "value": "074",
+            "name": "Cafnote",
+            "types": [
+                "Simple"
+            ]
+        },
+        {
+            "value": "075",
+            "name": "Trumbull",
+            "types": [
+                "Simple"
+            ]
+        },
+        {
+            "value": "076",
+            "name": "Mootune",
+            "types": [
+                "Simple"
+            ]
+        },
+        {
+            "value": "077",
+            "name": "Gobbidemic",
+            "types": [
+                "Toxic"
+            ]
+        },
+        {
+            "value": "078",
+            "name": "Icigool",
+            "types": [
+                "Spirit",
+                "Ice"
+            ]
+        },
+        {
+            "value": "079",
+            "name": "Pyramind",
+            "types": [
+                "Mind"
+            ]
+        },
+        {
+            "value": "080",
+            "name": "Pharoglyph",
+            "types": [
+                "Mind"
+            ]
+        },
+        {
+            "value": "081",
+            "name": "Burroach",
+            "types": [
+                "Bug",
+                "Earth"
+            ]
+        },
+        {
+            "value": "082",
+            "name": "Garbantis",
+            "types": [
+                "Bug",
+                "Earth"
+            ]
+        },
+        {
+            "value": "083",
+            "name": "Whimpor",
+            "types": [
+                "Metal",
+                "Air"
+            ]
+        },
+        {
+            "value": "084",
+            "name": "Stratusoar",
+            "types": [
+                "Metal",
+                "Air"
+            ]
+        },
+        {
+            "value": "085",
+            "name": "Territi",
+            "types": [
+                "Toxic",
+                "Metal"
+            ]
+        },
+        {
+            "value": "086",
+            "name": "Dyeborg",
+            "types": [
+                "Toxic",
+                "Metal"
+            ]
+        },
+        {
+            "value": "087",
+            "name": "Operaptor",
+            "types": [
+                "Metal",
+                "Earth"
+            ]
+        },
+        {
+            "value": "088",
+            "name": "Concredon",
+            "types": [
+                "Metal",
+                "Earth"
+            ]
+        },
+        {
+            "value": "089",
+            "name": "Tyrecks",
+            "types": [
+                "Metal",
+                "Earth"
+            ]
+        },
+        {
+            "value": "090",
+            "name": "Chompactor",
+            "types": [
+                "Metal"
+            ]
+        },
+        {
+            "value": "091",
+            "name": "Munchweel",
+            "types": [
+                "Metal"
+            ]
+        },
+        {
+            "value": "092",
+            "name": "Scorb",
+            "types": [
+                "Metal"
+            ]
+        },
+        {
+            "value": "093",
+            "name": "Veylens",
+            "types": [
+                "Metal"
+            ]
+        },
+        {
+            "value": "094",
+            "name": "Gardrone",
+            "types": [
+                "Metal"
+            ]
+        },
+        {
+            "value": "095",
+            "name": "Poochrol",
+            "types": [
+                "Metal",
+                "Electric"
+            ]
+        },
+        {
+            "value": "096",
+            "name": "Hunder",
+            "types": [
+                "Metal",
+                "Electric"
+            ]
+        },
+        {
+            "value": "097",
+            "name": "Goppie",
+            "types": [
+                "Water"
+            ]
+        },
+        {
+            "value": "098",
+            "name": "Arapaigo",
+            "types": [
+                "Water"
+            ]
+        },
+        {
+            "value": "099",
+            "name": "Pyke",
+            "types": [
+                "Ancient",
+                "Water"
+            ]
+        },
+        {
+            "value": "100",
+            "name": "Skelic",
+            "types": [
+                "Ancient",
+                "Water"
+            ]
+        },
+        {
+            "value": "101",
+            "name": "Zaleo",
+            "types": [
+                "Ancient",
+                "Electric"
+            ]
+        },
+        {
+            "value": "102",
+            "name": "Joltooth",
+            "types": [
+                "Ancient",
+                "Electric"
+            ]
+        },
+        {
+            "value": "103",
+            "name": "Dobo",
+            "types": [
+                "Ancient",
+                "Fire"
+            ]
+        },
+        {
+            "value": "104",
+            "name": "Infernix",
+            "types": [
+                "Ancient",
+                "Fire"
+            ]
+        },
+        {
+            "value": "105",
+            "name": "Kyogo",
+            "types": [
+                "Ancient",
+                "Dark"
+            ]
+        },
+        {
+            "value": "106",
+            "name": "Dorogo",
+            "types": [
+                "Ancient",
+                "Dark"
+            ]
+        },
+        {
+            "value": "107",
+            "name": "Wiledile",
+            "types": [
+                "Water",
+                "Plant"
+            ]
+        },
+        {
+            "value": "108",
+            "name": "Mawamurk",
+            "types": [
+                "Water",
+                "Plant"
+            ]
+        },
+        {
+            "value": "109",
+            "name": "Ampole",
+            "types": [
+                "Electric"
+            ]
+        },
+        {
+            "value": "110",
+            "name": "Amphiton",
+            "types": [
+                "Electric",
+                "Mind"
+            ]
+        },
+        {
+            "value": "111",
+            "name": "Meditoad",
+            "types": [
+                "Electric",
+                "Mind"
+            ]
+        },
+        {
+            "value": "112",
+            "name": "Pwuff",
+            "types": [
+                "Water",
+                "Toxic"
+            ]
+        },
+        {
+            "value": "113",
+            "name": "Bloatox",
+            "types": [
+                "Water",
+                "Toxic"
+            ]
+        },
+        {
+            "value": "114",
+            "name": "Barblast",
+            "types": [
+                "Water",
+                "Toxic"
+            ]
+        },
+        {
+            "value": "115",
+            "name": "Swimp",
+            "types": [
+                "Water"
+            ]
+        },
+        {
+            "value": "116",
+            "name": "Snapr",
+            "types": [
+                "Water"
+            ]
+        },
+        {
+            "value": "117",
+            "name": "Garlash",
+            "types": [
+                "Water"
+            ]
+        },
+        {
+            "value": "118",
+            "name": "Hydrini",
+            "types": [
+                "Bug",
+                "Water"
+            ]
+        },
+        {
+            "value": "119",
+            "name": "Bezeldew",
+            "types": [
+                "Bug",
+                "Water"
+            ]
+        },
+        {
+            "value": "120",
+            "name": "Deludrix",
+            "types": [
+                "Bug",
+                "Water"
+            ]
+        },
+        {
+            "value": "121",
+            "name": "Ceratot",
+            "types": [
+                "Ancient",
+                "Plant"
+            ]
+        },
+        {
+            "value": "122",
+            "name": "Trepodon",
+            "types": [
+                "Ancient",
+                "Plant"
+            ]
+        },
+        {
+            "value": "123",
+            "name": "Colossotrops",
+            "types": [
+                "Ancient",
+                "Plant"
+            ]
+        },
+        {
+            "value": "124",
+            "name": "Cupoink",
+            "types": [
+                "Fire"
+            ]
+        },
+        {
+            "value": "125",
+            "name": "Hoganosh",
+            "types": [
+                "Fire"
+            ]
+        },
+        {
+            "value": "126",
+            "name": "Mochibi",
+            "types": [
+                "Ice"
+            ]
+        },
+        {
+            "value": "127",
+            "name": "Totemochi",
+            "types": [
+                "Ice"
+            ]
+        },
+        {
+            "value": "128",
+            "name": "Mocho",
+            "types": [
+                "Ice"
+            ]
+        },
+        {
+            "value": "129",
+            "name": "Gwurm",
+            "types": [
+                "Bug"
+            ]
+        },
+        {
+            "value": "130",
+            "name": "Odasho",
+            "types": [
+                "Bug"
+            ]
+        },
+        {
+            "value": "131",
+            "name": "Spreezy",
+            "types": [
+                "Bug"
+            ]
+        },
+        {
+            "value": "132",
+            "name": "Pipsee",
+            "types": [
+                "Plant",
+                "Air"
+            ]
+        },
+        {
+            "value": "133",
+            "name": "Dandylil",
+            "types": [
+                "Plant",
+                "Air"
+            ]
+        },
+        {
+            "value": "134",
+            "name": "Whippledriff",
+            "types": [
+                "Plant",
+                "Air"
+            ]
+        },
+        {
+            "value": "135",
+            "name": "Vari",
+            "types": [
+                "Simple"
+            ]
+        },
+        {
+            "value": "136",
+            "name": "Cervolen",
+            "types": [
+                "Simple"
+            ]
+        },
+        {
+            "value": "137",
+            "name": "Wendolen",
+            "types": [
+                "Spirit"
+            ]
+        },
+        {
+            "value": "138",
+            "name": "Kirolen",
+            "types": [
+                "Ancient"
+            ]
+        },
+        {
+            "value": "139",
+            "name": "Zepholen",
+            "types": [
+                "Air"
+            ]
+        },
+        {
+            "value": "140",
+            "name": "Venolen",
+            "types": [
+                "Toxic"
+            ]
+        },
+        {
+            "value": "141",
+            "name": "Wresolen",
+            "types": [
+                "Brawler"
+            ]
+        },
+        {
+            "value": "142",
+            "name": "Buzzolen",
+            "types": [
+                "Bug"
+            ]
+        },
+        {
+            "value": "143",
+            "name": "Tundrolen",
+            "types": [
+                "Ice"
+            ]
+        },
+        {
+            "value": "144",
+            "name": "Pyrolen",
+            "types": [
+                "Fire"
+            ]
+        },
+        {
+            "value": "145",
+            "name": "Hydrolen",
+            "types": [
+                "Water"
+            ]
+        },
+        {
+            "value": "153",
+            "name": "Copling",
+            "types": [
+                "Ancient",
+                "Metal"
+            ]
+        },
+        {
+            "value": "154",
+            "name": "Copperage",
+            "types": [
+                "Ancient",
+                "Metal"
+            ]
+        },
+        {
+            "value": "155",
+            "name": "Oxidrake",
+            "types": [
+                "Ancient",
+                "Metal"
+            ]
+        },
+        {
+            "value": "156",
+            "name": "Spirivii",
+            "types": [
+                "Bug",
+                "Spirit"
+            ]
+        },
+        {
+            "value": "157",
+            "name": "Eidohusk",
+            "types": [
+                "Bug",
+                "Spirit"
+            ]
+        },
+        {
+            "value": "158",
+            "name": "Harvesect",
+            "types": [
+                "Bug",
+                "Spirit"
+            ]
+        },
+        {
+            "value": "159",
+            "name": "Snowl",
+            "types": [
+                "Ice"
+            ]
+        },
+        {
+            "value": "160",
+            "name": "Stricicle",
+            "types": [
+                "Ice",
+                "Air"
+            ]
+        },
+        {
+            "value": "161",
+            "name": "Wintrix",
+            "types": [
+                "Ice",
+                "Air"
+            ]
+        },
+        {
+            "value": "162",
+            "name": "Snagull",
+            "types": [
+                "Air"
+            ]
+        },
+        {
+            "value": "163",
+            "name": "Snagulp",
+            "types": [
+                "Air",
+                "Toxic"
+            ]
+        },
+        {
+            "value": "164",
+            "name": "Snagoop",
+            "types": [
+                "Air",
+                "Toxic"
+            ]
+        },
+        {
+            "value": "165",
+            "name": "Makame",
+            "types": [
+                "Water"
+            ]
+        },
+        {
+            "value": "166",
+            "name": "Makoro",
+            "types": [
+                "Water"
+            ]
+        },
+        {
+            "value": "167",
+            "name": "Tsukame",
+            "types": [
+                "Water"
+            ]
+        },
+        {
+            "value": "168",
+            "name": "Cavenish",
+            "types": [
+                "Water",
+                "Plant"
+            ]
+        },
+        {
+            "value": "169",
+            "name": "Banfino",
+            "types": [
+                "Water",
+                "Plant"
+            ]
+        },
+        {
+            "value": "170",
+            "name": "Kanki",
+            "types": [
+                "Water",
+                "Brawler"
+            ]
+        },
+        {
+            "value": "171",
+            "name": "Kanibo",
+            "types": [
+                "Water",
+                "Brawler"
+            ]
+        },
+        {
+            "value": "172",
+            "name": "Sharpod",
+            "types": [
+                "Water",
+                "Metal"
+            ]
+        },
+        {
+            "value": "173",
+            "name": "Samarine",
+            "types": [
+                "Water",
+                "Metal"
+            ]
+        },
+        {
+            "value": "174",
+            "name": "Lumica",
+            "types": [
+                "Water"
+            ]
+        },
+        {
+            "value": "175",
+            "name": "Lumello",
+            "types": [
+                "Water"
+            ]
+        },
+        {
+            "value": "176",
+            "name": "Polypi",
+            "types": [
+                "Water",
+                "Light"
+            ]
+        },
+        {
+            "value": "177",
+            "name": "Laphyra",
+            "types": [
+                "Water",
+                "Light"
+            ]
+        },
+        {
+            "value": "178",
+            "name": "Jellusa",
+            "types": [
+                "Water",
+                "Light"
+            ]
+        },
+        {
+            "value": "179",
+            "name": "Taoshi",
+            "types": [
+                "Simple"
+            ]
+        },
+        {
+            "value": "180",
+            "name": "Taoshinu",
+            "types": [
+                "Simple"
+            ]
+        },
+        {
+            "value": "181",
+            "name": "Kittone",
+            "types": [
+                "Simple"
+            ]
+        },
+        {
+            "value": "182",
+            "name": "Lyricat",
+            "types": [
+                "Simple"
+            ]
+        },
+        {
+            "value": "183",
+            "name": "Boonary",
+            "types": [
+                "Spirit"
+            ]
+        },
+        {
+            "value": "184",
+            "name": "Somata",
+            "types": [
+                "Water",
+                "Mind"
+            ]
+        },
+        {
+            "value": "185",
+            "name": "Clionae",
+            "types": [
+                "Water",
+                "Mind"
+            ]
+        },
+        {
+            "value": "186",
+            "name": "Cinnaboo",
+            "types": [
+                "Spirit"
+            ]
+        },
+        {
+            "value": "187",
+            "name": "Cinnogre",
+            "types": [
+                "Spirit"
+            ]
+        },
+        {
+            "value": "188",
+            "name": "Swirelle",
+            "types": [
+                "Air"
+            ]
+        },
+        {
+            "value": "189",
+            "name": "Swishy",
+            "types": [
+                "Water"
+            ]
+        },
+        {
+            "value": "190",
+            "name": "Fiscarna",
+            "types": [
+                "Water"
+            ]
+        },
+        {
+            "value": "191",
+            "name": "Bunpuff",
+            "types": [
+                "Plant",
+                "Earth"
+            ]
+        },
+        {
+            "value": "192",
+            "name": "Bunnecki",
+            "types": [
+                "Plant",
+                "Earth"
+            ]
+        },
+        {
+            "value": "193",
+            "name": "Dractus",
+            "types": [
+                "Plant"
+            ]
+        },
+        {
+            "value": "194",
+            "name": "Frutress",
+            "types": [
+                "Plant"
+            ]
+        },
+        {
+            "value": "195",
+            "name": "Seedrake",
+            "types": [
+                "Plant"
+            ]
+        },
+        {
+            "value": "196",
+            "name": "Volpup",
+            "types": [
+                "Electric",
+                "Toxic"
+            ]
+        },
+        {
+            "value": "197",
+            "name": "Halvantic",
+            "types": [
+                "Electric",
+                "Toxic"
+            ]
+        },
+        {
+            "value": "198",
+            "name": "Impkin",
+            "types": [
+                "Dark"
+            ]
+        },
+        {
+            "value": "199",
+            "name": "Grimmick",
+            "types": [
+                "Dark"
+            ]
+        },
+        {
+            "value": "200",
+            "name": "Imperior",
+            "types": [
+                "Dark"
+            ]
+        },
+        {
+            "value": "201",
+            "name": "Mistlebud",
+            "types": [
+                "Plant"
+            ]
+        },
+        {
+            "value": "202",
+            "name": "Hollibunch",
+            "types": [
+                "Plant",
+                "Light"
+            ]
+        },
+        {
+            "value": "203",
+            "name": "Cryocub",
+            "types": [
+                "Ice"
+            ]
+        },
+        {
+            "value": "204",
+            "name": "Barbadger",
+            "types": [
+                "Ice",
+                "Brawler"
+            ]
+        },
+        {
+            "value": "205",
+            "name": "Kyeggo",
+            "types": [
+                "Dark"
+            ]
+        },
+        {
+            "value": "206",
+            "name": "Doreggo",
+            "types": [
+                "Dark",
+                "Air"
+            ]
+        },
+        {
+            "value": "207",
+            "name": "Dreggodyne",
+            "types": [
+                "Dark",
+                "Air"
+            ]
+        },
+        {
+            "value": "208",
+            "name": "Wispur",
+            "types": [
+                "Spirit",
+                "Light"
+            ]
+        },
+        {
+            "value": "209",
+            "name": "Lampurge",
+            "types": [
+                "Spirit",
+                "Light"
+            ]
+        },
+        {
+            "value": "210",
+            "name": "Charonyx",
+            "types": [
+                "Spirit",
+                "Light"
+            ]
+        },
+        {
+            "value": "211",
+            "name": "Smoal",
+            "types": [
+                "Fire",
+                "Toxic"
+            ]
+        },
+        {
+            "value": "212",
+            "name": "Charkiln",
+            "types": [
+                "Fire",
+                "Toxic"
+            ]
+        },
+        {
+            "value": "213",
+            "name": "Billoforge",
+            "types": [
+                "Fire",
+                "Toxic"
+            ]
+        },
+        {
+            "value": "214",
+            "name": "Sherbot",
+            "types": [
+                "Ice",
+                "Metal"
+            ]
+        },
+        {
+            "value": "215",
+            "name": "Llamba",
+            "types": [
+                "Simple"
+            ]
+        },
+        {
+            "value": "216",
+            "name": "Choochew",
+            "types": [
+                "Simple"
+            ]
+        },
+        {
+            "value": "217",
+            "name": "Loomala",
+            "types": [
+                "Simple"
+            ]
+        },
+        {
+            "value": "218",
+            "name": "Fentern",
+            "types": [
+                "Simple"
+            ]
+        },
+        {
+            "value": "219",
+            "name": "Weaselin",
+            "types": [
+                "Simple"
+            ]
+        },
+        {
+            "value": "220",
+            "name": "Singeel",
+            "types": [
+                "Electric"
+            ]
+        },
+        {
+            "value": "221",
+            "name": "Moreel",
+            "types": [
+                "Electric",
+                "Dark"
+            ]
+        },
+        {
+            "value": "222",
+            "name": "Crabushi",
+            "types": [
+                "Metal",
+                "Brawler"
+            ]
+        },
+        {
+            "value": "223",
+            "name": "Crabtana",
+            "types": [
+                "Metal",
+                "Brawler"
+            ]
+        },
+        {
+            "value": "224",
+            "name": "Teripod",
+            "types": [
+                "Ancient",
+                "Light"
+            ]
+        },
+        {
+            "value": "225",
+            "name": "Teridescent",
+            "types": [
+                "Ancient",
+                "Light"
+            ]
+        },
+        {
+            "value": "226",
+            "name": "Skampi",
+            "types": [
+                "Water"
+            ]
+        },
+        {
+            "value": "227",
+            "name": "Prawnsu",
+            "types": [
+                "Water"
+            ]
+        },
+        {
+            "value": "228",
+            "name": "Shrimposte",
+            "types": [
+                "Water"
+            ]
+        },
+        {
+            "value": "229",
+            "name": "Dokan",
+            "types": [
+                "Earth",
+                "Toxic"
+            ]
+        },
+        {
+            "value": "230",
+            "name": "Dokumori",
+            "types": [
+                "Earth",
+                "Toxic"
+            ]
+        },
+        {
+            "value": "231",
+            "name": "Mirrami",
+            "types": [
+                "Spirit",
+                "Metal"
+            ]
+        },
+        {
+            "value": "232",
+            "name": "Mirraith",
+            "types": [
+                "Spirit",
+                "Metal"
+            ]
+        },
+        {
+            "value": "233",
+            "name": "Thawmin",
+            "types": [
+                "Ice",
+                "Mind"
+            ]
+        },
+        {
+            "value": "234",
+            "name": "Leshent",
+            "types": [
+                "Plant",
+                "Dark"
+            ]
+        },
+        {
+            "value": "235",
+            "name": "Kayute",
+            "types": [
+                "Ice",
+                "Dark"
+            ]
+        },
+        {
+            "value": "236",
+            "name": "Kayappa",
+            "types": [
+                "Ice",
+                "Dark"
+            ]
+        },
+        {
+            "value": "237",
+            "name": "Kramboss",
+            "types": [
+                "Ice",
+                "Dark"
+            ]
+        },
+        {
+            "value": "238",
+            "name": "Leopaw",
+            "types": [
+                "Light",
+                "Ice"
+            ]
+        },
+        {
+            "value": "239",
+            "name": "Chienta",
+            "types": [
+                "Light",
+                "Ice"
+            ]
+        },
+        {
+            "value": "240",
+            "name": "Eyebrella",
+            "types": [
+                "Water"
+            ]
+        },
+        {
+            "value": "241",
+            "name": "Parasoul",
+            "types": [
+                "Water",
+                "Dark"
+            ]
+        },
+        {
+            "value": "242",
+            "name": "Lissen",
+            "types": [
+                "Mind"
+            ]
+        },
+        {
+            "value": "243",
+            "name": "Biwarned",
+            "types": [
+                "Mind",
+                "Simple"
+            ]
+        },
+        {
+            "value": "244",
+            "name": "Lantot",
+            "types": [
+                "Fire"
+            ]
+        },
+        {
+            "value": "245",
+            "name": "Lantorch",
+            "types": [
+                "Fire",
+                "Light"
+            ]
+        },
+        {
+            "value": "246",
+            "name": "Milgoo",
+            "types": [
+                "Toxic"
+            ]
+        },
+        {
+            "value": "247",
+            "name": "Rancidor",
+            "types": [
+                "Toxic",
+                "Ancient"
+            ]
+        },
+        {
+            "value": "248",
+            "name": "Nautling",
+            "types": [
+                "Ancient",
+                "Simple"
+            ]
+        },
+        {
+            "value": "249",
+            "name": "Nautillect",
+            "types": [
+                "Ancient",
+                "Mind"
+            ]
+        },
+        {
+            "value": "250",
+            "name": "Naukout",
+            "types": [
+                "Ancient",
+                "Brawler"
+            ]
+        },
+        {
+            "value": "251",
+            "name": "Yutiny",
+            "types": [
+                "Ancient",
+                "Air"
+            ]
+        },
+        {
+            "value": "252",
+            "name": "Yuteen",
+            "types": [
+                "Ancient",
+                "Air"
+            ]
+        },
+        {
+            "value": "253",
+            "name": "Yutyphoon",
+            "types": [
+                "Ancient",
+                "Air"
+            ]
+        },
+        {
+            "value": "254",
+            "name": "Venile",
+            "types": [
+                "Ancient",
+                "Toxic"
+            ]
+        },
+        {
+            "value": "255",
+            "name": "Verinox",
+            "types": [
+                "Ancient",
+                "Toxic"
+            ]
+        },
+        {
+            "value": "256",
+            "name": "Verinosaur",
+            "types": [
+                "Ancient",
+                "Toxic"
+            ]
+        },
+        {
+            "value": "257",
+            "name": "Nymvolt",
+            "types": [
+                "Electric",
+                "Bug"
+            ]
+        },
+        {
+            "value": "258",
+            "name": "Ohmbolt",
+            "types": [
+                "Electric",
+                "Bug"
+            ]
+        },
+        {
+            "value": "259",
+            "name": "Plasmoth",
+            "types": [
+                "Electric",
+                "Bug"
+            ]
+        },
+        {
+            "value": "260",
+            "name": "Cicalute",
+            "types": [
+                "Bug",
+                "Mind"
+            ]
+        },
+        {
+            "value": "261",
+            "name": "Violana",
+            "types": [
+                "Bug",
+                "Mind"
+            ]
+        },
+        {
+            "value": "262",
+            "name": "Goswing",
+            "types": [
+                "Air",
+                "Simple"
+            ]
+        },
+        {
+            "value": "263",
+            "name": "Ganderveil",
+            "types": [
+                "Air",
+                "Simple"
+            ]
+        },
+        {
+            "value": "264",
+            "name": "Banooh",
+            "types": [
+                "Simple"
+            ]
+        },
+        {
+            "value": "265",
+            "name": "Banokey",
+            "types": [
+                "Simple",
+                "Brawler"
+            ]
+        },
+        {
+            "value": "266",
+            "name": "Spirwix",
+            "types": [
+                "Fire",
+                "Spirit"
+            ]
+        },
+        {
+            "value": "267",
+            "name": "Malevowax",
+            "types": [
+                "Fire",
+                "Spirit"
+            ]
+        },
+        {
+            "value": "268",
+            "name": "Grievestone",
+            "types": [
+                "Earth",
+                "Spirit"
+            ]
+        },
+        {
+            "value": "269",
+            "name": "Obelost",
+            "types": [
+                "Earth",
+                "Spirit"
+            ]
+        },
+        {
+            "value": "270",
+            "name": "Jimby",
+            "types": [
+                "Simple"
+            ]
+        },
+        {
+            "value": "271",
+            "name": "Piccolio",
+            "types": [
+                "Simple"
+            ]
+        },
+        {
+            "value": "272",
+            "name": "Wassel",
+            "types": [
+                "Ice"
+            ]
+        },
+        {
+            "value": "273",
+            "name": "Borealisk",
+            "types": [
+                "Ice"
+            ]
+        },
+        {
+            "value": "274",
+            "name": "Snicle",
+            "types": [
+                "Ice",
+                "Dark"
+            ]
+        },
+        {
+            "value": "275",
+            "name": "Slivyce",
+            "types": [
+                "Ice",
+                "Dark"
+            ]
+        },
+        {
+            "value": "283",
+            "name": "Duskit",
+            "types": [
+                "Spirit",
+                "Mind"
+            ]
+        },
+        {
+            "value": "284",
+            "name": "Ikazune",
+            "types": [
+                "Fire",
+                "Electric"
+            ]
+        },
+        {
+            "value": "285",
+            "name": "Protogon",
+            "types": [
+                "Metal"
+            ]
+        },
+        {
+            "value": "286",
+            "name": "Dakuda",
+            "types": [
+                "Water"
+            ]
+        },
+        {
+            "value": "289",
+            "name": "Cosmeleon",
+            "types": [
+                "Simple"
+            ]
+        },
+        {
+            "value": "290",
+            "name": "Mutagon",
+            "types": [
+                "Mind",
+                "Brawler"
+            ]
+        },
+        {
+            "value": "291",
+            "name": "Cephalops",
+            "types": [
+                "Water",
+                "Dark"
+            ]
+        },
+        {
+            "value": "292",
+            "name": "Elephage",
+            "types": [
+                "Electric"
+            ]
+        },
+        {
+            "value": "293",
+            "name": "Phagenaut",
+            "types": [
+                "Electric"
+            ]
+        },
+        {
+            "value": "294",
+            "name": "Glacadia",
+            "types": [
+                "Ice",
+                "Ancient"
+            ]
+        },
+        {
+            "value": "295",
+            "name": "Arceros",
+            "types": [
+                "Fire",
+                "Ancient"
+            ]
+        },
+        {
+            "value": "296",
+            "name": "Novadeaus",
+            "types": [
+                "Fire",
+                "Ice"
+            ]
+        },
+        {
+            "value": "297",
+            "name": "Morphezu",
+            "types": [
+                "Air"
+            ]
+        },
+        {
+            "value": "298",
+            "name": "Behemoroth",
+            "types": [
+                "Earth"
+            ]
+        },
+        {
+            "value": "299",
+            "name": "Leviatross",
+            "types": [
+                "Water"
+            ]
+        },
+        {
+            "value": "301",
+            "name": "Cosmiore",
+            "types": [
+                "Ancient",
+                "Mind"
+            ]
+        },
+        {
+            "value": "302",
+            "name": "Nymaurae",
+            "types": [
+                "Light",
+                "Air"
+            ]
+        },
+        {
+            "value": "303",
+            "name": "Nymesis",
+            "types": [
+                "Dark",
+                "Air"
+            ]
+        },
+        {
+            "value": "304",
+            "name": "Metronette",
+            "types": [
+                "Dark",
+                "Mind"
+            ]
+        },
+        {
+            "value": "305",
+            "name": "Nevermare",
+            "types": [
+                "Plant",
+                "Spirit"
+            ]
+        },
+        {
+            "value": "306",
+            "name": "Gargolem",
+            "types": [
+                "Earth",
+                "Air"
+            ]
+        },
+        {
+            "value": "307",
+            "name": "Odoyaga",
+            "types": [
+                "Mind",
+                "Air"
+            ]
+        },
+        {
+            "value": "308",
+            "name": "Wabalisc",
+            "types": [
+                "Ice"
+            ]
+        },
+        {
+            "value": "309",
+            "name": "Akhalos",
+            "types": [
+                "Ice",
+                "Water"
+            ]
+        },
+        {
+            "value": "310",
+            "name": "Celesting",
+            "types": [
+                "Metal",
+                "Light"
+            ]
+        },
+        {
+            "value": "311",
+            "name": "Mimask",
+            "types": [
+                "Dark"
+            ]
+        },
+        {
+            "value": "312",
+            "name": "Grimyuline",
+            "types": [
+                "Dark",
+                "Brawler"
+            ]
+        }
+    ]
+}
