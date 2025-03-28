@@ -7,70 +7,91 @@
     <title>Loomian Effective Damage Check</title>
     <link rel="stylesheet" href="styles.css">
 
-    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-
-    <!-- Include Select2 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
-
-    <!-- Include Select2 JS -->
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
-    <script>
-        async function loadLoomians() {
-            try {
-                const response = await fetch('loomians.json');
-                const data = await response.json();
-                
-                const loomianList = document.getElementById("loomianList");
-                const typeList = document.getElementById("typeList");
-
-                // Sort Loomians by name (A to Z)
-                const sortedLoomians = data.loomians.sort((a, b) => a.name.localeCompare(b.name));
-
-                // Populate the first dropdown with sorted Loomians
-                sortedLoomians.forEach(loomian => {
-                    const option = document.createElement("option");
-                    option.value = loomian.types;
-                    option.textContent = loomian.name;
-                    loomianList.appendChild(option);
-                });
-
-                // Initialize Select2 for both dropdowns
-                $('#loomianList').select2({
-                    placeholder: "Search for a Loomian",
-                    allowClear: true
-                });
-
-                $('#typeList').select2({
-                    placeholder: "Choose attacking type",
-                    allowClear: true
-                });
-            } catch (error) {
-                console.log("Error loading Loomians:", error);
-            }
+<script>
+    async function loadEffectiveness() {
+        try {
+            const response = await fetch('effectiveness.json');
+            const data = await response.json();
+            return data;
+        } catch (error) {
+            console.error("Error loading effectiveness data:", error);
+            return null;
         }
+    }
 
-        // Function to get selected options
-        function getSelectedOptions() {
+    async function loadLoomians() {
+        try {
+            const response = await fetch('loomians.json');
+            const data = await response.json();
+
             const loomianList = document.getElementById("loomianList");
-            const typeList = document.getElementById("typeList");
-            const output = document.getElementById("output");
 
-            const selectedLoomian = loomianList.options[loomianList.selectedIndex]?.textContent || "None";
-            const selectedType = typeList.options[typeList.selectedIndex]?.textContent || "None";
+            // Sort Loomians by name (A to Z)
+            const sortedLoomians = data.loomians.sort((a, b) => a.name.localeCompare(b.name));
 
+            // Populate the first dropdown with sorted Loomians
+            sortedLoomians.forEach(loomian => {
+                const option = document.createElement("option");
+                option.value = loomian.types.join(","); // Store types as a comma-separated string
+                option.textContent = loomian.name;
+                loomianList.appendChild(option);
+            });
 
+            // Initialize Select2 for both dropdowns
+            $('#loomianList').select2({
+                placeholder: "Search for a Loomian",
+                allowClear: true
+            });
 
-            output.textContent = `Selected Loomian: ${selectedLoomian}, Selected Type: ${selectedType}`;
+            $('#typeList').select2({
+                placeholder: "Choose attacking type",
+                allowClear: true
+            });
+        } catch (error) {
+            console.error("Error loading Loomians:", error);
         }
+    }
 
-        // Ensure DOM is fully loaded before adding event listeners
-        document.addEventListener("DOMContentLoaded", () => {
-            document.getElementById("getOptionsButton").addEventListener("click", getSelectedOptions);
-            loadLoomians();
-        });
-    </script>
+    async function calculateEffectiveness() {
+    const loomianList = document.getElementById("loomianList");
+    const typeList = document.getElementById("typeList");
+    const output = document.getElementById("output");
+
+    const selectedLoomianTypes = loomianList.value.split(","); // Get defending Loomian's types
+    const selectedType = typeList.value; // Get attacking type
+
+    if (!selectedLoomianTypes || !selectedType) {
+        output.textContent = "Please select both a Loomian and an attacking type.";
+        return;
+    }
+
+    const effectivenessData = await loadEffectiveness();
+    if (!effectivenessData) {
+        output.textContent = "Error loading effectiveness data.";
+        return;
+    }
+
+    // Calculate the total effectiveness multiplier
+    let totalMultiplier = 1;
+    selectedLoomianTypes.forEach(defendingType => {
+        const multiplier = effectivenessData[selectedType]?.[defendingType] || 1;
+        totalMultiplier *= multiplier; // Multiply the effectiveness of each type
+    });
+
+    // Display the result
+    output.textContent = `The effectiveness of ${selectedType} against ${loomianList.options[loomianList.selectedIndex].textContent} is ${totalMultiplier}x.`;
+}
+    // Ensure DOM is fully loaded before adding event listeners
+    document.addEventListener("DOMContentLoaded", () => {
+        document.getElementById("getOptionsButton").addEventListener("click", calculateEffectiveness);
+        loadLoomians();
+    });
+</script>
 </head>
 
 <body>
