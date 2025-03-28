@@ -19,13 +19,16 @@
     <script>
         async function loadLoomians() {
             try {
-                const response = await fetch('loomians.json');
-                const data = await response.json();
+                const response1 = await fetch('loomians.json');
+                const data1 = await response.json();
+                const response2 = await fetch('effectiveness.json');
+                const data2 = await response.json();
+                
                 const loomianList = document.getElementById("loomianList");
                 const typeList = document.getElementById("typeList");
 
                 // Sort Loomians by name (A to Z)
-                const sortedLoomians = data.loomians.sort((a, b) => a.name.localeCompare(b.name));
+                const sortedLoomians = data1.loomians.sort((a, b) => a.name.localeCompare(b.name));
 
                 // Populate the first dropdown with sorted Loomians
                 sortedLoomians.forEach(loomian => {
@@ -100,7 +103,7 @@
         <option value="Mind">Mind</option>
     </select>
     <br><br>
-    <button id="getOptionsButton">Get Selected Options</button>
+    <button id="getOptionsButton">Check</button>
     <p id="output"></p>
 </body>
 
