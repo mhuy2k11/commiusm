@@ -71,7 +71,7 @@
             // Calculate the total effectiveness multiplier
             let totalMultiplier = 1;
             selectedLoomianTypes.forEach(defendingType => {
-                const multiplier = effectivenessData[selectedType]?.[defendingType] || 1;
+                const multiplier = effectivenessData[selectedType]?.[defendingType] || 0;
                 totalMultiplier *= multiplier; // Multiply the effectiveness of each type
             });
 
