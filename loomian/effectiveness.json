@@ -41,7 +41,7 @@
     "Fire": 0.5,
     "Water": 2,
     "Plant": 0.5,
-    "Light": 2,
+    "Light": 1,
     "Dark": 1,
     "Ice": 1,
     "Electric": 1,
